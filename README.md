@@ -1,2 +1,0 @@
-# wdio-test
-test
