@@ -1,0 +1,23 @@
+{
+  "name": "wdio-test",
+  "version": "1.0.0",
+  "description": "testapp",
+  "main": "wdio.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "cucumber": "^2.0.0-rc.9",
+    "selenium-standalone": "^6.4.1",
+    "wdio-cucumber-framework": "^0.3.0",
+    "webdriverio": "^4.8.0"
+  },
+  "devDependencies": {
+    "wdio-junit-reporter": "^0.3.0"
+  },
+  "scripts": {
+    "test": "cuke"
+  },
+  "author": "",
+  "license": "ISC"
+}
